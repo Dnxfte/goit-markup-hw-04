@@ -183,6 +183,21 @@ img {
   width: 264px;
 }
 
+.feature-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
+
+.feature-icon {
+  flex-shrink: 0;
+}
+
 .feature-item-title,
 .card-title {
   margin-bottom: 8px;
